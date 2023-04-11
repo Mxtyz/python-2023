@@ -17,3 +17,4 @@ if target in arr:
     print(f"El número {target} se encuentra en el arreglo.")
 else:
     print(f"El número {target} no se encuentra en el arreglo.")
+    
