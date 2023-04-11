@@ -3,6 +3,7 @@ nombres = []
 rut = []
 
 # Pedir al usuario que ingrese la información de cada persona
+
 for i in range(5):
     nombre = input("Ingrese el nombre de la persona {}: ".format(i+1))
     rut_persona = input("Ingrese el RUT de la persona {}: ".format(i+1))
