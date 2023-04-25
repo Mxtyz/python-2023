@@ -13,8 +13,16 @@ for i in range(4):
     matriz1 = input("Ingrese los elementos de la matriz 1:")
     matriz2 = input("Ingrese los elementos de la matriz 2:") 
 
+#Intento de sumar las matrices 
 matriz = matriz1 + matriz2
-matri = matriz1 - matriz2
 
-print(matriz)
-print(matri)
+#intento de funcion para ingresar las filas y columnas
+def elementos(filas,columans):
+
+    matriz = []
+
+    for i in range(2):
+
+        filas = input("Ingrese cantidad de filas:")
+        columans = input("Ingrese cantidad de columnas:")
+#No comprendi bien el tema de las matrices tengo que estudiar mas :c
