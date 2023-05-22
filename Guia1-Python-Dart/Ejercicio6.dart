@@ -6,10 +6,10 @@ void main() {
 
   List<int> resultado = List.generate(a.length, (i) => a[i] * b[i]);
 
-  List<int> nuevaLista = List.generate(5, (_) => Random().nextInt(5) - 5);
+  List<int> nuevalista = List.generate(5, (_) => Random().nextInt(5) - 5);
 
-  List<int> listaFinal = [...resultado, ...nuevaLista];
-  listaFinal.sort((a, b) => b.compareTo(a));
+  List<int> listafinal = [...resultado, ...nuevalista];
+  listafinal.sort((a, b) => b.compareTo(a));
 
-  print(listaFinal);
+  print(listafinal);
 }
